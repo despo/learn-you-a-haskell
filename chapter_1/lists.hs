@@ -17,3 +17,9 @@ listTailElements = tail foundNumbers
 listLastElement = last foundNumbers
 
 listInitialElements = init foundNumbers
+
+lengthOfList = length lostNumbers
+
+reverseList = reverse lostNumbers
+
+isEmpty list = null list
