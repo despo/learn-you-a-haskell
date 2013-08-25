@@ -30,3 +30,6 @@ lastElements x = drop x lostNumbers
 
 maximumValueOfList =  maximum lostNumbers
 minimumValueOfList =  minimum lostNumbers
+
+sumOfList = sum lostNumbers
+productOfList = product lostNumbers
