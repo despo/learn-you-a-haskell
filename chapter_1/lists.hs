@@ -23,3 +23,7 @@ lengthOfList = length lostNumbers
 reverseList = reverse lostNumbers
 
 isEmpty list = null list
+
+firstElements x = take x lostNumbers
+
+lastElements x = drop x lostNumbers
