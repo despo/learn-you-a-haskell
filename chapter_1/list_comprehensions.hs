@@ -16,3 +16,4 @@ nouns = [ "hobo", "frog", "pope" ]
 adjectives = [ "lazy", "grouchy", "scheming" ]
 descriptions = [ adjective ++  " " ++ noun | adjective <- adjectives, noun <- nouns ]
 
+length' xs = sum[1| _ <- xs]
