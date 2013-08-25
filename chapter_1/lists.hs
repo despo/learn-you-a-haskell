@@ -5,3 +5,6 @@ concatenateLists = lostNumbers ++ foundNumbers
 appendToList = lostNumbers ++ [4]
 
 add5ToStart = 5:lostNumbers
+
+listElementAt x = lostNumbers !! x
+
