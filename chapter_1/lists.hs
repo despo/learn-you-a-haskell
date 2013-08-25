@@ -27,3 +27,6 @@ isEmpty list = null list
 firstElements x = take x lostNumbers
 
 lastElements x = drop x lostNumbers
+
+maximumValueOfList =  maximum lostNumbers
+minimumValueOfList =  minimum lostNumbers
