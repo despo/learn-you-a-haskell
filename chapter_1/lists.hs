@@ -33,3 +33,5 @@ minimumValueOfList =  minimum lostNumbers
 
 sumOfList = sum lostNumbers
 productOfList = product lostNumbers
+
+contains x list = x `elem` list
