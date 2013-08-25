@@ -8,5 +8,12 @@ add5ToStart = 5:lostNumbers
 
 listElementAt x = lostNumbers !! x
 
-
 listOfListAt x = [[1..4], [4..7], [6..10], [11..14]] !! x
+
+listElementAt0 = head foundNumbers
+
+listTailElements = tail foundNumbers
+
+listLastElement = last foundNumbers
+
+listInitialElements = init foundNumbers
