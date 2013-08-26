@@ -16,3 +16,12 @@ circumference r = 2 * pi * r
 
 circumference' :: Double -> Double
 circumference' r = 2 * pi * r
+
+greaterThanComparison :: [Char] -> [Char] -> Bool
+greaterThanComparison a b = a > b
+
+lessThanComparison :: [Char] -> [Char] -> Bool
+lessThanComparison a b = a < b
+
+inlineComparison :: [Char] -> [Char] -> Ordering
+inlineComparison a b = a `compare` b
