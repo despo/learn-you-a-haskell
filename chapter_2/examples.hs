@@ -25,3 +25,5 @@ lessThanComparison a b = a < b
 
 inlineComparison :: [Char] -> [Char] -> Ordering
 inlineComparison a b = a `compare` b
+
+printAsString a = show a
