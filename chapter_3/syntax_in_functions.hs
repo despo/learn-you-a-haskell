@@ -55,3 +55,7 @@ tell' (x:y:_) = "This list is long. The first two elements are: " ++ show x ++ "
 
 badAdd :: (Num a) => [a] -> a
 badAdd (x:y:z:[]) = x + y + z
+
+firstLetter :: String -> String
+firstLetter "" = "Empty String"
+firstLetter all@(x:_) = "The first letter of " ++ all ++ " is " ++ [x]
