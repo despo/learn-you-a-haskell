@@ -59,3 +59,12 @@ badAdd (x:y:z:[]) = x + y + z
 firstLetter :: String -> String
 firstLetter "" = "Empty String"
 firstLetter all@(x:_) = "The first letter of " ++ all ++ " is " ++ [x]
+
+-- GUARDS!
+
+bmiTell :: Double -> String
+bmiTell bmi
+    | bmi <= 18.5 = "You're underweight. Go get some food!"
+    | bmi <= 25.0 = "You're normal. Meh!"
+    | bmi <= 30.0 = "You should be more careful with what you eat!"
+    | otherwise = "You should really go see a doctor"
