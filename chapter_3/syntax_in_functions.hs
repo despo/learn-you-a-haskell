@@ -68,3 +68,10 @@ bmiTell bmi
     | bmi <= 25.0 = "You're normal. Meh!"
     | bmi <= 30.0 = "You should be more careful with what you eat!"
     | otherwise = "You should really go see a doctor"
+
+bmiTell' :: Double -> Double -> String
+bmiTell' weight height
+    | weight / height ^ 2 <= 18.5 = "You're underweight. Go get some food!"
+    | weight / height ^ 2 <= 25.0 = "You're normal. Meh!"
+    | weight / height ^ 2 <= 30.0 = "You should be more careful with what you eat!"
+    | otherwise = "You should really go see a doctor"
